@@ -141,7 +141,17 @@ Ensure you have:
 2. Enable **Authentication → Email/Password**.  
 3. Go to Project Settings → “Your Apps” → Copy your SDK config.  
 4. Copy project configuration data and paste in `frontend/src/firebaseConfig.js`:
-
+   
+   ```bash
+   const firebaseConfig = {
+     apiKey: "YOUR_API_KEY",
+     authDomain: "YOUR_AUTH_DOMAIN",
+     projectId: "YOUR_PROJECT_ID",
+     storageBucket: "YOUR_STORAGE_BUCKET",
+     messagingSenderId: "YOUR_SENDER_ID",
+     appId: "YOUR_APP_ID",
+   };
+   ```
 ---
 
 ## Model Training (YOLOv8)
@@ -192,10 +202,10 @@ Model training was performed in **Google Colab** using
 ![Footer](screenshots/footer.png)
 
 ### Login
-![Home](screenshots/login.png)
+![Login](screenshots/login.png)
 
 ### Signup
-![Home](screenshots/signup.png)
+![Signup](screenshots/signup.png)
 
 ### Real-Time Detection  
 ![Start Detection](screenshots/startdetectionpage.png)  
@@ -229,7 +239,9 @@ See [LICENSE](LICENSE) for more information.
 
 Special thanks to:
 - **Ultralytics** – YOLOv8 Object Detection  
-- **Roboflow** – Dataset Anotation and Labeling  
+- **Roboflow** – Dataset Annotation and Labeling  
 - **Google Colab** – Model Training  
 - **Firebase** – Authentication & Database  
 - **The visually impaired community** – Inspiration and purpose  
+
+⭐ If you like this project, please give it a star on GitHub!
