@@ -244,4 +244,4 @@ Special thanks to:
 - **Firebase** – Authentication & Database  
 - **The visually impaired community** – Inspiration and purpose  
 
-⭐ If you like this project, please give it a star on GitHub!
+**⭐ If you like this project, please give it a star on GitHub!**
