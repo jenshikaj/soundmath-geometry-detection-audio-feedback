@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Node
+node_modules/
+dist/
+
+# Others
+.DS_Store
+*.log
+*.ipynb_checkpoints
+dataset/
