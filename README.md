@@ -156,17 +156,14 @@ Ensure you have:
 
 ## Model Training (YOLOv8)
 
-Model training was performed in **Google Colab** using  
-`ShapesDetectionModel_YOLOv8_training.ipynb`.
+Model training was performed in **Google Colab** using `ShapesDetectionModel_YOLOv8_training.ipynb`.
 
 ### **Training Overview**
 - Shapes were annotated and labeled using **Roboflow**.  
-- Unified 7 shape classes:  
-  `circle, parallelogram, rectangle, rhombus, square, triangle, trapezoid`
-- Trained **YOLOv8m** for 20 epochs at 640×640 resolution.  
-- Visualized metrics (Precision, Recall, F1, PR curves, confusion matrix).  
-- Final model saved as:  
-  `yolov8_shapes_detection_model_v1.pt`
+- Unified 7 shape classes:  `circle, parallelogram, rectangle, rhombus, square, triangle, trapezoid`
+- Trained **YOLOv8m**. 
+- Visualized metrics.  
+- Final model saved as:  `yolov8_shapes_detection_model_v1.pt`
 
 ---
 
