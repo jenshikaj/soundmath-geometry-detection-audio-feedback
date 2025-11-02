@@ -221,7 +221,7 @@ Model training was performed in **Google Colab** using `ShapesDetectionModel_YOL
 
 | Name                  | Role      | Contribution                                                                                                      |
 |-----------------------|-----------|-------------------------------------------------------------------------------------------------------------------|
-| **[Jenshika Jeisin]** | Developer | UI design, dataset annotation, Model training, backend development, frontend development, Firebase setup, Testing |
+| **Jenshika Jeisin** | Developer | UI design, dataset annotation, Model training, backend development, frontend development, Firebase setup, Testing |
 
 ---
 
