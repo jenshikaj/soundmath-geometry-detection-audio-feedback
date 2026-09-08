@@ -234,7 +234,6 @@ See [LICENSE](LICENSE) for more information.
 
 ### Acknowledgments
 
-Special thanks to:
 - **Ultralytics** – YOLOv8 Object Detection  
 - **Roboflow** – Dataset Annotation and Labeling  
 - **Google Colab** – Model Training  
